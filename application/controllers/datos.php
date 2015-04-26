@@ -14,10 +14,26 @@ class Datos extends CI_Controller {
   }
   public function temperatura()
   {
-    $info = $this->datos_model->temperatura_semana();
-    var_dump($info);
+    //$info = $this->datos_model->temperatura_semana();
+    //var_dump($info);
     $this->load->view('templates/header');
     $this->load->view('datos/datos_temperatura');
+    $this->load->view('templates/footer');
+  }
+  public function humedad()
+  {
+    //$info = $this->datos_model->temperatura_semana();
+    //var_dump($info);
+    $this->load->view('templates/header');
+    $this->load->view('datos/datos_humedad');
+    $this->load->view('templates/footer');
+  }
+  public function luminosidad()
+  {
+    //$info = $this->datos_model->temperatura_semana();
+    //var_dump($info);
+    $this->load->view('templates/header');
+    $this->load->view('datos/datos_luminosidad');
     $this->load->view('templates/footer');
   }
   public function crear()
