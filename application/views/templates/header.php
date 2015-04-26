@@ -7,21 +7,24 @@
 		<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/materialize.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('assets/js/personal.js'); ?>"></script>
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/personal.css'); ?>">
+    <script type="text/javascript" src="<?php echo base_url('assets/js/personal.js'); ?>"></script>
+    <script type="text/javascript" charset="utf-8" src="<?php echo base_url('assets/js/highcharts-3d.js'); ?>"></script>
+    <script type="text/javascript" charset="utf-8" src="<?php echo base_url('assets/js/highcharts.js'); ?>"></script>
+    <script type="text/javascript" charset="utf-8" src="<?php echo base_url('assets/js/scrypt.js'); ?>"></script>
 </head>
 
 
 
 <body>
 <section>
-
 	  <nav>
     <div class=" #00c853 green accent-4 nav-wrapper">
-      <a href="#" class="brand-logo right">Logo</a>
+      <a href="#" class="brand-logo right">Maginetworks</a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="components.html">Components</a></li>
-        <li><a href="javascript.html">JavaScript</a></li>
+        <li><a href="<?php echo base_url('index.php/'); ?>">Inicio</a></li>
+        <li><a href="<?php echo base_url('index.php/encargados'); ?>">Encargados</a></li>
+        <li><a href="<?php echo base_url('index.php/reportes'); ?>">Reportes</a></li>
+        <li><a href="<?php echo base_url('index.php/datos'); ?>">Datos</a></li>
       </ul>
     </div>
   </nav>
