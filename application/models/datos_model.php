@@ -15,17 +15,34 @@ class Datos_model extends CI_Model
     $query = $this->db->get();
     return $query->result_array();
   }
-  public function all()
+  public function ultimos()
   {
-    $query = $this->db->get('encargado');
-    return $query = $query->result_array();
+    $dia=date('N');
+    $woy = date('W');
+    for ($i = 0; $i < 3; $i++) {
+      $query = "
+        select valor from mediciones where tipo_medicion=".$i." and
+        dia=".$dia." and woy=".$woy." order by id_medicion desc limit 1";
+      $resultado = $this->db->query($query);
+      $resultado = $resultado->result_array();
+      $valores[$i]=$resultado[0]['valor'];
+    }
+    return $valores;
   }
-  public function getOne($id)
+  public function ultimosDatos($tipo )
   {
-    $this->db->select('*')->from('encargado')->
-      where('id_encargado',$id);
-    $query = $this->db->get();
-    return $query->result_array();
+    $woy= date('W');
+    for ($i = 1; $i < 8; $i++) {
+      $query="SELECT valor FROM mediciones WHERE tipo_medicion=".$tipo." and dia=".$i." and woy=".$woy." order by id_medicion desc limit 1";
+      $resultado = $this->db->query($query);
+      $resultado = $resultado->result_array();
+      if ($resultado[0]['valor']!='') {
+        $valores[$i]=$resultado[0]['valor'];
+      }else{
+        $valores[$i]=0;
+      }
+    }
+    return $valores;
   }
 }
 

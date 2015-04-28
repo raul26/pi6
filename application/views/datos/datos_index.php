@@ -4,7 +4,7 @@
       <div class="col s12 m4 ">
         <div class="card-panel z-depth-3 green accent-4">
           <span class="white-text flow-text">
-            Temperatura<p id= 'Temperatura'>35</p>
+            Temperatura<p id= 'temperatura'>35</p>
           </span>
           <a href='<?php echo base_url('index.php/datos/temperatura'); ?>'class='white-text'>Ver mas</a>
         </div>
@@ -27,3 +27,4 @@
       </div>
     </div>
 </section>
+<script type="text/javascript" charset="utf-8" src="<?php echo base_url('assets/js/script_values.js'); ?>"></script>
