@@ -14,7 +14,7 @@
 </head>
 <body>
 <section>
-    <nav class="deep-orange darken-4" role="navigation">
+    <nav class="blue lighten-2" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="<?php echo base_url('index.php/'); ?>" class="brand-logo">MagiNetworks</a>
       <ul class="right hide-on-med-and-down">

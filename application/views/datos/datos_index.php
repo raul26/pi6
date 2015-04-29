@@ -1,7 +1,7 @@
 <section class='container'>
 <br>
     <div class="row">
-      <div class="col s12 m4 ">
+      <div class="col s12 m4 center ">
         <div class="card-panel z-depth-4  amber lighten-2">
           <a href="<?php echo base_url('index.php/datos/temperatura') ; ?>">
           <img src="<?php echo base_url('assets/images/termome.png') ; ?>" title="Temperatura">
@@ -12,7 +12,7 @@
           </a>
         </div>
       </div>
-      <div class="col s12 m4 ">
+      <div class="col s12 m4  center">
         <div class="card-panel z-depth-4  light-blue lighten-2">
           <a  href='<?php echo base_url('index.php/datos/humedad'); ?>'>
           <img src="<?php echo base_url('assets/images/nube.png') ; ?>" title="Humedad">
@@ -23,7 +23,7 @@
         </a>
         </div>
       </div>
-      <div class="col s12 m4 ">
+      <div class="col s12 m4 center ">
         <div class="card-panel z-depth-4  lime accent-1">
         <a  href='<?php echo base_url('index.php/datos/luminosidad'); ?>'>
          <img src="<?php echo base_url('assets/images/candle.png') ; ?>" title="Luminosidad">

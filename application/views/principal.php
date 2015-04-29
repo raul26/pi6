@@ -1,9 +1,9 @@
     <section class='container'>
 <br>
     <div class="row">
-      <div class="col s12 m4 ">
+      <div class="col s12 m4 center">
         <div class="card-panel z-depth-4 blue lighten-5 accent-4">
-          <span class="black-text center-text flow-text">
+          <span class="black-text center-text flow-text ">
             Encargados
           </span>
           <a class="aling-center" href='<?php echo base_url('index.php/encargados'); ?>'>
@@ -11,7 +11,7 @@
           </a>
         </div>
       </div>
-      <div class="col s12 m4 ">
+      <div class="col s12 m4 center">
         <div class="card-panel z-depth-4 blue lighten-5 accent-4">
           <span class="black-text center-text flow-text">
             Reportes
@@ -21,7 +21,7 @@
           </a>
         </div>
       </div>
-      <div class="col s12 m4 ">
+      <div class="col s12 m4 center">
         <div class="card-panel z-depth-4 blue lighten-5 accent-4">
           <span class="black-text center-text flow-text">
             Datos

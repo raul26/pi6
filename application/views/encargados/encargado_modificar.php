@@ -8,6 +8,12 @@
       </div>
     </div>
     <div class="row">
+      <div class="input-field col s6">
+        <input id="icon_prefix" type="text" class="validate" name='password' value='<?php echo $info[0]['nombre']; ?>'>
+        <label>Password</label>
+      </div>
+    </div>
+    <div class="row">
       <div class="input-field col s4">
         <input id="last_name" type="text" class="validate"name='edad' value='<?php echo $info[0]['edad']; ?>'>
         <label for="last_name">Edad</label>

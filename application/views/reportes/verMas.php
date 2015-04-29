@@ -12,14 +12,39 @@ case 2:
   $tipe='Luminosidad';
   break;
 }
-
-  echo ('<h5>Nombre del reporte: '.$all[0]['titulo'].'</h5>');
-  echo ('<h5>Descripcion: '.$all[0]['descripcion'].'</h5>');
-  echo ('<h5>Laboratorio: '.$all[0]['tipo_uso'].'</h5>');
-  echo ('<h5>Encargado del laboratorio: '.$all[0]['nombre'].'</h5>');
-  echo ('<h5>Tipo de medicion: '.$tipe.'</h5>');
-  echo ('<h5>Valor de medicion: '.$all[0]['valor'].'</h5>');
-  echo ('<h5>Fecha de medicion: '.$all[0]['fecha'].'</h5>');
-  echo ('<h5>Hora de medicion: '.$all[0]['hora'].'</h5>');
 ?>
+</section>
+<section class="container">
+  <div class="col s12 m8">
+    <table class="hoverable">
+    <tr>
+      <th><span class="mdi-action-assignment"></span>Nombre reporte</th>
+      <td> <?php echo ('<p>'.$all[0]['titulo'].'</p>');  ?> </td>
+    </tr>
+    <tr>
+      <th><span class="mdi-action-description"></span> Descripción</th>
+      <td><?php echo ('<p>'.$all[0]['descripcion'].'</p>');  ?></td>
+    </tr>
+    <tr>
+      <th> <span class="mdi-action-assignment-ind"></span> Encargado</th>
+      <td><?php echo ('<p>'.$all[0]['nombre'].'</p>');  ?></td>
+    </tr>
+    <tr>
+      <th><span class="mdi-action-info"></span>Tipo</th>
+      <td><?php echo ('<p>'.$tipe.'</p>');  ?></td>
+    </tr>
+    <tr>
+      <th><span class="mdi-editor-attach-money"></span> Valor</th>
+      <td><?php echo ('<p>'.$all[0]['valor'].'</p>');  ?></td>
+    </tr>
+    <tr>
+      <th> <span class="mdi-action-event"></span> Fecha</th>
+      <td><?php echo ('<p>'.$all[0]['fecha'].'</p>');  ?></td>
+    </tr>
+    <tr>
+      <th> <span class="mdi-action-alarm"></span> Hora Medición</th>
+      <td><?php echo ('<p>'.$all[0]['hora'].'</p>');  ?></td>
+    </tr>
+  </table>
+  </div>
 </section>

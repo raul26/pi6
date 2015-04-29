@@ -14,8 +14,6 @@ class Datos extends CI_Controller {
   }
   public function temperatura()
   {
-    //$info = $this->datos_model->temperatura_semana();
-    //var_dump($info);
     $this->load->view('templates/header');
     $this->load->view('datos/datos_temperatura');
     $this->load->view('templates/footer');

@@ -9,28 +9,40 @@ class Encargados_model extends CI_Model
 
   public function guardar_encargado($data)
   {
-    $this->db->insert('encargado', $data) ;
+    $query = "
+      INSERT INTO encargado(id_encargado, nombre, edad, fecha_nacimiento, direccion, telefono, correo, hora_entrada, hora_salida, password)
+      VALUES (NULL,'".$data['nombre']."',".$data['edad'].", '".$data['fecha_nacimiento']."','".$data['direccion']."', '".$data['telefono']."', '".$data['correo']."', '".$data['hora_entrada']."', '".$data['hora_salida']."', '".$data['password']."')";
+    $this->db->query($query);
   }
   public function all()
   {
-    $query = $this->db->get('encargado');
-    return $query = $query->result_array();
+    $consulta= "Select * from encargado";
+    $query=$this->db->query($consulta);
+    return $query->result_array();
   }
   public function eliminar($value)
   {
-    $this->db->delete('encargado',$value);
+    $consulta= "Delete from encargado where id_encargado= ".$value['id_encargado']."";
+    $query=$this->db->query($consulta);
   }
   public function getOne($id)
   {
-    $this->db->select('*')->from('encargado')->
-      where('id_encargado',$id);
-    $query = $this->db->get();
+    $resultado = "Select * from encargado where id_encargado=".$id."";
+    $query=$this->db->query($resultado);
     return $query->result_array();
   }
   public function doModificar($id, $values)
   {
-    $this->db->where('id_encargado', $id);
-    $this->db->update('encargado', $values);
+    $query = "UPDATE  encargado SET  nombre =  '".$values['nombre']."',
+      edad =  ".$values['edad'].",
+      fecha_nacimiento =  '".$values['fecha_nacimiento']."',
+      direccion =  '".$values['direccion']."',
+      telefono =  '".$values['telefono']."',
+      correo =  '".$values['correo']."',
+      hora_entrada =  '".$values['hora_entrada']."',
+      hora_salida =  '".$values['hora_salida']."',
+      password = '".$values['password']."' WHERE  encargado.id_encargado =".$id."";
+    $this->db->query($query);
   }
 }
 

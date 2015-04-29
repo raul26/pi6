@@ -7,14 +7,6 @@ class Datos_model extends CI_Model
     parent:: __construct();
   }
 
-  public function temperatura_semana()
-  {
-    $semana = date('W');
-    $this->db->select('*')->from('mediciones')->
-      where('woy',$semana)->order_by('id_medicion','desc')->group_by('dia');
-    $query = $this->db->get();
-    return $query->result_array();
-  }
   public function ultimos()
   {
     $dia=date('N');

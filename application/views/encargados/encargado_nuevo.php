@@ -3,10 +3,16 @@
   <form class="col s12" action='<?php echo base_url('index.php/encargados/guardar') ?>' method='post'>
     <div class="row">
       <div class="input-field col s6">
-        <input id="icon_prefix" type="text" class="validate" name='nombre'>
+        <input id="" type="text" class="validate" name='nombre'>
         <label for="icon_prefix">Nombre Completo</label>
       </div>
 
+    </div>
+    <div class='row'>
+      <div class="input-field col s4">
+        <input id="last_name" type="password" class="validate"name='password'>
+        <label for="last_name">Password</label>
+      </div>
     </div>
     <div class='row'>
       <div class="input-field col s2">
@@ -23,7 +29,7 @@
     </div>
     <div class="row">
       <div class="input-field col s12">
-        <input id="password" type="password" class="validate"name='direccion'>
+        <input id="password" type="text" class="validate"name='direccion'>
         <label for="password">Dirección</label>
       </div>
     </div>

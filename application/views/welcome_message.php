@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
     <title>Universidad de Colima</title>
    <link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/css/materialize.min.css'); ?>"  />
-   <link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>"  />
+   <link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet" />
    <link type="text/css" rel="stylesheet" href="<?php echo base_url('assets/css/personal.css'); ?>"  />
     <link href="<?php echo base_url('assets/table/media/css/jquery.dataTables.min.css'); ?>" rel="stylesheet" />
    <!--<link type="text/css" rel="stylesheet" href="<?php //echo base_url('assets/css/reset.css'); ?>"  />-->
@@ -23,7 +23,7 @@
 </head>
 <body>
     <div class="navbar-fixed">
-        <nav class="deep-orange darken-4" role="navigation">
+        <nav class="blue lighten-2" role="navigation">
           <div class="nav-wrapper container">
               <a id="logo-container" href="index.php" class="brand-logo">MagiNetworks</a>
                 <ul class="right hide-on-med-and-down">
@@ -95,7 +95,7 @@
 
         </div>
       </div>
-      <div class="parallax"></div<div class="parallax"><img src="<?php echo base_url('assets/images/background3.jpg') ; ?>" alt="Unsplashed background img 2" id="logoudc"></div>  </div>
+      <div class="parallax"></div<div class="parallax"><img src="<?php echo base_url('assets/images/colors.jpg') ; ?>" alt="Unsplashed background img 2" id="logoudc"></div>  </div>
 
 
   <div class="container">
@@ -114,7 +114,6 @@
               semana o mes</p>
           </div>
         </div>
-
 
         <div class="col s12 m6">
           <div class="icon-block">
@@ -135,7 +134,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h4 class="header bold col s12 text-lighten-2">Una moderna solucion a problemas de automatizacion y monitoreo.</h4>
         </div>
       </div>
     </div>
@@ -145,12 +144,11 @@
 
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">Magintworks es una empresa comprometida con las soluciones de ultima generacion aplicando la mas alta tecnologia y usando hardware de calidad, comprometida con nuestros clientes. </p>
         </div>
       </div>
 
@@ -162,33 +160,24 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h4 class="header col s12 text-lighten-2">Desarrollo agil y adecuado a sus necesidades.</h4>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="<?php echo base_url('assets/images/background2.jpg') ; ?>" alt="Unsplashed background img 3" id="logoudc"></div>
+    <div class="parallax"><img src="<?php echo base_url('assets/images/verde.jpg') ; ?>" alt="Unsplashed background img 3" id="logoudc"></div>
   </div>
 
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">Maginetworks</h5>
+          <p class="grey-text text-lighten-4">Magintworks es una empresa comprometida con las soluciones de ultima generacion aplicando la mas alta tecnologia y usando hardware de calidad, comprometida con nuestros clientes.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-          </ul>
+          <h5 class="white-text"><a class="white-text" href="http://facebook.com/">Facebook</a></h5>
         </div>
       </div>
     </div>
