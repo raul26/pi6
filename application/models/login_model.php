@@ -8,11 +8,8 @@ class Login_model extends CI_Model
     parent:: __construct();
   }
 
-  public function doLogin($correo,$password)//funcion para hacer el login
+  public function doLogin($data)//funcion para hacer el login
   {
-    $data = array('correo' => $correo,//informacion la guardo
-          'password'=>$password
-     );
     $this->db->select('*');     //consulta
     $this->db->from('encargado');
     $this->db->where('correo', $data['correo']);

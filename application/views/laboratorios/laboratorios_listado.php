@@ -1,13 +1,12 @@
 <section class='container'>
-      <table>
+      <table id='tab'>
         <thead>
           <th>Tipo de uso</th>
           <th>Temp. Max.</th>
           <th>Temp. Min.</th>
           <th>Hum. Max.</th>
           <th>Hum. Min.</th>
-          <th colspan='2'>Acciones</th>
-          <th></th>
+          <th>Acciones</th>
         </thead>
         <tbody>
             <?php
@@ -18,8 +17,7 @@
                 echo ('<td>'.$valor['temperatura_minima'].'</td>');
                 echo ('<td>'.$valor['humedad_maxima'].'</td>');
                 echo ('<td>'.$valor['humedad_minima'].'</td>');
-                echo ('<td><a href='.base_url('/index.php/laboratorios/modificar/'.$valor['id_laboratorio']).'>Modificar</a></td>');
-                echo ('<td><a href='.base_url('/index.php/laboratorios/eliminar/'.$valor['id_laboratorio']).'>Eliminar</a></td>');
+                echo ('<td><a href='.base_url('/index.php/laboratorios/modificar/'.$valor['id_laboratorio']).'>Modificar</a><a href='.base_url('/index.php/laboratorios/eliminar/'.$valor['id_laboratorio']).'>Eliminar</a></td>');
                 echo('</tr>');
               }
             ?>

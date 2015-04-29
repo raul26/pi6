@@ -9,7 +9,7 @@ $(document).ready(function(){
     var lum = JSON.parse(obj);
     var valores = [];
     for(var x in lum){
-      valores.push(parseInt(lum[x]));
+      valores.push(parseFloat(lum[x]));
     }
     console.log(lum);
 

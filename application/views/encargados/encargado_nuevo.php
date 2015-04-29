@@ -3,17 +3,19 @@
   <form class="col s12" action='<?php echo base_url('index.php/encargados/guardar') ?>' method='post'>
     <div class="row">
       <div class="input-field col s6">
-        <i class="mdi-action-account-circle prefix"></i>
         <input id="icon_prefix" type="text" class="validate" name='nombre'>
         <label for="icon_prefix">Nombre Completo</label>
       </div>
-      <div class="input-field col s6">
+
+    </div>
+    <div class='row'>
+      <div class="input-field col s2">
         <input id="last_name" type="text" class="validate"name='edad'>
         <label for="last_name">Edad</label>
       </div>
     </div>
     <div class="row">
-      <div class="input-field col s12">
+      <div class="input-field col s4">
         <label>Fecha Nacimiento</label>
         <br></br>
         <input type="date" class="datepicker"name='fecha_nacimiento'>
@@ -25,13 +27,12 @@
         <label for="password">Dirección</label>
       </div>
     </div>
-     <div class="input-field col s12">
-        <i class="mdi-communication-phone prefix"></i>
+     <div class="input-field col s5">
         <input id="icon_telephone" type="tel" class="validate"name='telefono'>
-        <label for="icon_telephone">Telefóno</label>
+        <label>Telefóno</label>
       </div>
      <div class="row">
-      <div class="input-field col s12">
+      <div class="input-field col s5">
         <input id="email" type="email" class="validate"name='correo'>
         <label for="email">Email</label>
       </div>
@@ -41,10 +42,8 @@
          <label >Hora de entrada</label>
          <br></br>
         <input id="timein" type="time" class="validate"name='hora_entrada'>
-
       </div>
     </div>
-
      <div class="row">
       <div class="input-field col s12">
          <label >Hora de Salida</label>

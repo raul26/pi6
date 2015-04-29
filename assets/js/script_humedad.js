@@ -9,7 +9,7 @@ $(document).ready(function(){
     var hum = JSON.parse(obj);
     var valores = [];
     for(var x in hum){
-      valores.push(parseInt(hum[x]));
+      valores.push(parseFloat(hum[x]));
     }
     $('#Humedad-Semana').highcharts({
       title: {

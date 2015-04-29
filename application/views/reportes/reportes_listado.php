@@ -2,15 +2,14 @@
       <?php
       if (isset($all[0])){
       ?>
-      <table>
+      <table id='tab'>
         <thead>
           <th>Titulo</th>
           <th>Encargado</th>
           <th>Laboratorio</th>
           <th>Tipo Medicion</th>
           <th>Valor Medicion</th>
-          <th colspan='2'>Acciones</th>
-          <th></th>
+          <th>Acciones</th>
         </thead>
         <tbody>
             <?php
@@ -32,8 +31,7 @@
                 echo ('<td>'.$valor['tipo_uso'].'</td>');
                 echo ('<td>'.$tipe.'</td>');
                 echo ('<td>'.$valor['valor'].'</td>');
-                echo ('<td><a href='.base_url('/index.php/reportes/verMas/'.$valor['id_reporte']).'>Ver mas</a></td>');
-                echo ('<td><a href='.base_url('/index.php/reportes/cambiarEstado/'.$valor['id_reporte']).'>Resuelto</a></td>');
+                echo ('<td><a href='.base_url('/index.php/reportes/verMas/'.$valor['id_reporte']).'>Ver mas</a><a href='.base_url('/index.php/reportes/cambiarEstado/'.$valor['id_reporte']).'>Resuelto</a></td>');
                 echo('</tr>');
               }
       }

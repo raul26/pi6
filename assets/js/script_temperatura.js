@@ -9,7 +9,7 @@ $(document).ready(function(){
     var temp = JSON.parse(obj);
     var valores = [];
     for(var x in temp){
-      valores.push(parseInt(temp[x]));
+      valores.push(parseFloat(temp[x]));
     }
     console.log(temp);
     $('#Temperatura-Semana').highcharts({
