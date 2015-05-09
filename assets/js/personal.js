@@ -5,7 +5,7 @@ $(document).ready(function(){
   });
   $('#tab').DataTable({
     "language": {
-      "emptyTable": "No hya datos disponibles",
+      "emptyTable": "No hay datos disponibles",
       "info": "Mostrando _START_ hasta _END_ de _TOTAL_ registros",
       "infoEmpty": "No hay registros para mostrar",
       "infoFiltered": "(filtrado de  _MAX_ registros totales)",

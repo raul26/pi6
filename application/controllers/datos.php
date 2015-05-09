@@ -37,6 +37,12 @@ class Datos extends CI_Controller {
     $values = $this->datos_model->ultimosDatos($datos['tipo']);
     echo json_encode($values);
   }
+  public function semanal_full()
+  {
+    $datos = $this->input->post();
+    $values = $this->datos_model->ultimosDatos_full($datos['tipo'],$datos['woy']);
+    echo json_encode($values);
+  }
   public function ultimos()
   {
     $datos = $this->datos_model->ultimos();

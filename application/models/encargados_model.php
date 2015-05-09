@@ -16,7 +16,7 @@ class Encargados_model extends CI_Model
   }
   public function all()
   {
-    $consulta= "Select * from encargado";
+    $consulta= "Select * from encargado where admin = 0";
     $query=$this->db->query($consulta);
     return $query->result_array();
   }
