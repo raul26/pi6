@@ -15,12 +15,6 @@
     </div>
     <div class="row">
       <div class="input-field col s4">
-        <input id="last_name" type="text" class="validate"name='edad' value='<?php echo $info[0]['edad']; ?>'>
-        <label for="last_name">Edad</label>
-      </div>
-    </div>
-    <div class="row">
-      <div class="input-field col s4">
         <label>Fecha Nacimiento</label>
         <br></br>
         <input type="date" class="datepicker"name='fecha_nacimiento'value='<?php echo $info[0]['fecha_nacimiento']; ?>'>

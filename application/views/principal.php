@@ -6,7 +6,7 @@
           <span class="black-text center-text flow-text ">
             Encargados
           </span>
-          <a class="aling-center" href='<?php echo base_url('index.php/encargados'); ?>'>
+          <a class="aling-center" href='<?php echo base_url('index.php/encargados/listado'); ?>'>
             <img src="<?php echo base_url('assets/images/charge.png') ; ?>" title="Encargados">
           </a>
         </div>

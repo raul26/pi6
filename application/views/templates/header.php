@@ -14,6 +14,10 @@
 </head>
 <body>
 <section>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="<?php echo base_url('index.php/encargados/listado'); ?>">Listado</a></li>
+    <li><a href="<?php echo base_url('index.php/encargados/crear'); ?>">Nuevo</a></li>
+  </ul>
     <nav class="blue lighten-2" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="<?php echo base_url('index.php/'); ?>" class="brand-logo">MagiNetworks</a>
@@ -22,10 +26,10 @@
       if ($this->session->userdata('nombre')) {
 ?>
         <li><a title="Inicio" href="<?php echo base_url('index.php/welcome/principal'); ?>"><i class="large mdi-action-home"></i></a></li>
-        <li><a title="Encargado" href="<?php echo base_url('index.php/encargados'); ?>"><i class="large mdi-action-account-child"></i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Encargados<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
         <li><a title="Reportes" href="<?php echo base_url('index.php/reportes'); ?>"><i class="large mdi-action-subject"></i></a></a></li>
         <li><a title="Graficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i></a></a></li>
-        <li><a title="Cerrar sesion" href="<?php echo base_url('index.php/login/destroy'); ?>"><i class="large mdi-action-perm-identity"></i></a></a></li>
+        <li id='close'><a title="Cerrar sesion" href=""><i class="large mdi-action-perm-identity"></i></a></a></li>
 <?php
       }else{
 ?>

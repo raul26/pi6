@@ -10,8 +10,8 @@ class Encargados_model extends CI_Model
   public function guardar_encargado($data)
   {
     $query = "
-      INSERT INTO encargado(id_encargado, nombre, edad, fecha_nacimiento, direccion, telefono, correo, hora_entrada, hora_salida, password)
-      VALUES (NULL,'".$data['nombre']."',".$data['edad'].", '".$data['fecha_nacimiento']."','".$data['direccion']."', '".$data['telefono']."', '".$data['correo']."', '".$data['hora_entrada']."', '".$data['hora_salida']."', '".$data['password']."')";
+      INSERT INTO encargado(id_encargado, nombre, fecha_nacimiento, direccion, telefono, correo, hora_entrada, hora_salida, password, admin)
+      VALUES (NULL,'".$data['nombre']."', '".$data['fecha_nacimiento']."','".$data['direccion']."', '".$data['telefono']."', '".$data['correo']."', '".$data['hora_entrada']."', '".$data['hora_salida']."', '".$data['password']."', 0)";
     $this->db->query($query);
   }
   public function all()

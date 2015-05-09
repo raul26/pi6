@@ -14,12 +14,6 @@
         <label for="last_name">Password</label>
       </div>
     </div>
-    <div class='row'>
-      <div class="input-field col s2">
-        <input id="last_name" type="text" class="validate"name='edad'>
-        <label for="last_name">Edad</label>
-      </div>
-    </div>
     <div class="row">
       <div class="input-field col s4">
         <label>Fecha Nacimiento</label>

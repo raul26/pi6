@@ -28,7 +28,7 @@ class Login extends CI_Controller {
   function destroy()
   {
     //destruimos la sesión
-    $this->login_model->close();
+    echo $this->login_model->close();
     redirect('','refresh');
   }
 }

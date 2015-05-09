@@ -3,6 +3,9 @@ $(document).ready(function(){
     selectMonths: true, // Creates a dropdown to control month
     selectYears: 15 // Creates a dropdown of 15 years to control year
   });
+  $('#close').on('click', sure);
+  $(".dropdown-button").dropdown();
+  $('.borrar').on('click', borrar);
   $('#tab').DataTable({
     "language": {
       "emptyTable": "No hay datos disponibles",
@@ -19,3 +22,21 @@ $(document).ready(function(){
     }
   });
 });
+function sure (el) {
+  var r = confirm("Esta seguro de cerrar sesion?");
+  if (r) {
+    el.preventDefault();
+    window.location.href = 'http://localhost/pi6/index.php/login/destroy';
+  }else{
+    return false;
+  }
+}
+function borrar (el) {
+  var r = confirm('Esta seguro de eliminar el resitro?');
+  if (r) {
+    el.preventDefault();
+    var id = $(this).parents('tr').data('id');
+    console.log(id);
+    window.location.href = 'http://localhost/pi6/index.php/encargados/eliminar/'+id;
+  }
+}
