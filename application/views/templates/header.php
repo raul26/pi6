@@ -29,6 +29,7 @@
         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Encargados<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
         <li><a title="Reportes" href="<?php echo base_url('index.php/reportes'); ?>"><i class="large mdi-action-subject"></i></a></a></li>
         <li><a title="Graficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i></a></a></li>
+        <li><a title="Laboratorio" href="<?php echo base_url('index.php/laboratorios/'); ?>"><i class="large mdi-editor-format-color-fill"></i></a></a></li>
         <li id='close'><a title="Cerrar sesion" href=""><i class="large mdi-action-perm-identity"></i></a></a></li>
 <?php
       }else{

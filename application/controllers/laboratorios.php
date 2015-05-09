@@ -10,22 +10,24 @@ class Laboratorios extends CI_Controller {
   }
 	public function index()
 	{
+    $valores = $this->laboratorios_model->all();
+    $all = array('all' => $valores);
     $this->load->view('templates/header');
-    $this->load->view('laboratorios/laboratorios_index');
+    $this->load->view('laboratorios/laboratorios_index',$all);
     $this->load->view('templates/footer');
   }
-  public function crear()
-  {
-    $this->load->view('templates/header');
-    $this->load->view('laboratorios/laboratorio_nuevo');
-    $this->load->view('templates/footer');
-  }
-  public function guardar()
-  {
-    $valores = $this->input->post();
-    $this->laboratorios_model->guardar_laboratorio($valores);
-    redirect('/laboratorios/listado', 'refresh');
-  }
+  //public function crear()
+  //{
+    //$this->load->view('templates/header');
+    //$this->load->view('laboratorios/laboratorio_nuevo');
+    //$this->load->view('templates/footer');
+  //}
+  //public function guardar()
+  //{
+    //$valores = $this->input->post();
+    //$this->laboratorios_model->guardar_laboratorio($valores);
+    //redirect('/laboratorios/listado', 'refresh');
+  //}
   public function listado()
   {
     $all = $this->laboratorios_model->all();
@@ -35,12 +37,12 @@ class Laboratorios extends CI_Controller {
     $this->load->view('templates/footer');
   }
 
-  public function eliminar()
-  {
-    $valores = array('id_laboratorio' =>$this->uri->segment(3) );
-    $this->laboratorios_model->eliminar($valores);
-    redirect('/laboratorios/listado', 'refresh');
-  }
+  //public function eliminar()
+  //{
+    //$valores = array('id_laboratorio' =>$this->uri->segment(3) );
+    //$this->laboratorios_model->eliminar($valores);
+    //redirect('/laboratorios/listado', 'refresh');
+  //}
   public function modificar()
   {
     $id = $this->uri->segment(3);
@@ -55,7 +57,7 @@ class Laboratorios extends CI_Controller {
     $valores = $this->input->post();
     $id=$this->uri->segment(3);
     $this->laboratorios_model->doModificar($id, $valores);
-    redirect('/laboratorios/listado', 'refresh');
+    redirect('/laboratorios', 'refresh');
   }
 }
 ?>
