@@ -26,6 +26,7 @@ function validar (evt){
 
 }
 function mostrar () {
+  $('#Temperatura-Semana2').html='';
   var woy = $('#number').val();
   $.ajax({
     url: "http://localhost/pi6/index.php/datos/semanal_full",

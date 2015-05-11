@@ -4,7 +4,7 @@ $(document).ready(function(){
     selectYears: 15 // Creates a dropdown of 15 years to control year
   });
   $('#close').on('click', sure);
-  $(".dropdown-button").dropdown();
+  $(".dropdown-button").dropdown({hover:false});
   $('.borrar').on('click', borrar);
   $('.estado').on('click', modificar);
   $('#tab').DataTable({
