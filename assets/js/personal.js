@@ -6,6 +6,7 @@ $(document).ready(function(){
   $('#close').on('click', sure);
   $(".dropdown-button").dropdown();
   $('.borrar').on('click', borrar);
+  $('.estado').on('click', modificar);
   $('#tab').DataTable({
     "language": {
       "emptyTable": "No hay datos disponibles",
@@ -38,5 +39,18 @@ function borrar (el) {
     var id = $(this).parents('tr').data('id');
     console.log(id);
     window.location.href = 'http://localhost/pi6/index.php/encargados/eliminar/'+id;
+  }else{
+    return false;
+  }
+}
+function modificar (el) {
+  var r = confirm('Esta seguro de marcar como reuslto el reporte?');
+  if (r) {
+    el.preventDefault();
+    var id = $(this).parents('tr').data('id');
+    console.log(id);
+    window.location.href = 'http://localhost/pi6/index.php/reportes/cambiarEstado/'+id;
+  }else{
+    return false;
   }
 }

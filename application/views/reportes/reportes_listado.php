@@ -25,13 +25,13 @@
                     $tipe='Luminosidad';
                     break;
                 }
-                echo('<tr>');
+                echo('<tr data-id='.$valor['id_reporte'].'>');
                 echo ('<td>'.$valor['titulo'].'</td>');
                 echo ('<td>'.$valor['nombre'].'</td>');
                 echo ('<td>'.$valor['tipo_uso'].'</td>');
                 echo ('<td>'.$tipe.'</td>');
                 echo ('<td>'.$valor['valor'].'</td>');
-                echo ('<td><a href='.base_url('/index.php/reportes/verMas/'.$valor['id_reporte']).'><i title="Ver mas" class="small mdi-image-control-point"></i>  </a><a href='.base_url('/index.php/reportes/cambiarEstado/'.$valor['id_reporte']).'><i title="Marcar Listo" class=" small mdi-toggle-check-box"></i></a></td>');
+                echo ('<td><a href='.base_url('/index.php/reportes/verMas/'.$valor['id_reporte']).'><i title="Ver mas" class="small mdi-image-control-point"></i>  </a><a class="estado" href=""><i title="Marcar Listo" class=" small mdi-toggle-check-box"></i></a></td>');
                 echo('</tr>');
               }
       }
