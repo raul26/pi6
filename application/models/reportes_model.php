@@ -13,14 +13,13 @@ class Reportes_model extends CI_Model
       inner join encargado on reportes.id_encargado = encargado.id_encargado
       inner join laboratorio on reportes.id_laboratorio = laboratorio.id_laboratorio
       inner join mediciones on reportes.id_medicion = mediciones.id_medicion
-      where
-      reportes.status=0";
+      where reportes.status=0";
     $query=$this->db->query($consulta);
     return $query->result_array();
   }
   public function getOne($id)
   {
-    $consulta= "select reportes.*, encargado.nombre, laboratorio.tipo_uso, mediciones.valor, mediciones.*
+    $consulta= "select reportes.*, encargado.*, laboratorio.*, mediciones.valor, mediciones.*
       from reportes
       inner join encargado on reportes.id_encargado = encargado.id_encargado
       inner join laboratorio on reportes.id_laboratorio = laboratorio.id_laboratorio
