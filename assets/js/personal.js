@@ -5,6 +5,7 @@ $(document).ready(function(){
   });
   $('#close').on('click', sure);
   $(".dropdown-button").dropdown({hover:false});
+  $(".button-collapse").sideNav();
   $('.borrar').on('click', borrar);
   $('.estado').on('click', modificar);
   $('#tab').DataTable({

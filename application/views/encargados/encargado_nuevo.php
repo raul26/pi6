@@ -8,6 +8,13 @@
       </div>
 
     </div>
+
+    <div class="row">
+      <div class="input-field col s4">
+        <label>Fecha Nacimiento</label>
+        <input type="date" class="datepicker"name='fecha_nacimiento'>
+      </div>
+    </div>
     <div class='row'>
       <div class="input-field col s4">
         <input id="last_name" type="password" class="validate"name='password'>
@@ -15,15 +22,8 @@
       </div>
     </div>
     <div class="row">
-      <div class="input-field col s4">
-        <label>Fecha Nacimiento</label>
-        <br></br>
-        <input type="date" class="datepicker"name='fecha_nacimiento'>
-      </div>
-    </div>
-    <div class="row">
       <div class="input-field col s12">
-        <input id="password" type="text" class="validate"name='direccion'>
+        <input id="" type="text" class="validate"name='direccion'>
         <label for="password">Dirección</label>
       </div>
     </div>

@@ -22,10 +22,11 @@
     </script>
 </head>
 <body>
-    <div class="navbar-fixed">
+    <div class="navbar-wrapper">
         <nav class="blue lighten-2" role="navigation">
           <div class="nav-wrapper container">
               <a id="logo-container" href="index.php" class="brand-logo">MagiNetworks</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                 <ul class="right hide-on-med-and-down">
                   <!--<li><a href="sass.html"><i class="large mdi-social-person"></i></a></li>-->
                   <li>
@@ -33,10 +34,17 @@
                       <i class="large mdi-social-person"></i>
                     </a>
                   </li>
-
                   <li><a title="Graficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i></a></a></li>
                 </ul>
-              <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <ul class="side-nav" id="mobile-demo">
+                  <!--<li><a href="sass.html"><i class="large mdi-social-person"></i></a></li>-->
+                  <li>
+                    <a title='Iniciar sesion'class="modal-trigger" href="#modal1">
+                      <i class="large mdi-social-person"></i> Iniciar sesion
+                    </a>
+                  </li>
+                  <li><a title="Graficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i> Graficas</a></a></li>
+                </ul>
           </div>
         </nav>
     </div>
