@@ -96,11 +96,11 @@
 
     <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
-        <div class="container">
-          <br><br>
-          <h1 class="header center grey-text text-darken-3">Sistema de Sensores</h1>
-          <div class="row center">
-            <h5 class="header col s12 grey-text text-darken-3">
+        <div class="container estilo">
+          <br>
+          <h1 class="header center white-text text-darken-3">Sistema de Sensores</h1>
+          <div class="row center ">
+            <h5 class="header col s12 white-text text-darken-3">
 
               Sistemas de evaluación de variables de importancia por medio de redes de
               sensores e internet de las cosas
@@ -117,7 +117,7 @@
 
         </div>
       </div>
-      <div class="parallax" style="opacity: 0.5 "></div<div class="parallax"><img src="<?php echo base_url('assets/images/colors.jpg') ; ?>" alt="Unsplashed background img 2" id="logoudc"></div>  </div>
+      <div class="parallax" ></div<div class="parallax"><img src="<?php echo base_url('assets/images/colors.jpg') ; ?>" alt="Unsplashed background img 2" id="logoudc"></div>  </div>
 
 
   <div class="container">
@@ -152,15 +152,15 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+  <div class="parallax-container ">
+    <div class="section cent">
       <div class="container">
-        <div class="row center">
-          <h4 class="header bold col s12 black-text text-lighten-2">Una moderna solución a problemas de automatizacion y monitoreo.</h4>
+        <div class="row center estilo">
+          <h4 class="header bold col s12 white-text text-lighten-2">Una moderna solución a problemas de automatizacion y monitoreo.</h4>
         </div>
       </div>
     </div>
-    <div class="parallax" style="opacity: 0.4"><img src="<?php echo base_url('assets/images/background3.jpg') ; ?>" alt="Unsplashed background img 2" id="logoudc"></div>
+    <div class="parallax" ><img src="<?php echo base_url('assets/images/background3.jpg') ; ?>" alt="Unsplashed background img 2" id="logoudc"></div>
 
   </div>
 
@@ -178,15 +178,15 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+  <div class="parallax-container ">
+    <div class="section ">
       <div class="container">
-        <div class="row center">
-          <h4 class="header col s12 black-text text-lighten-2">Desarrollo agil y adecuado a sus necesidades.</h4>
+        <div class="row center estilo cent">
+          <h4 class="header col s12 white-text text-lighten-2">Desarrollo agil y adecuado a sus necesidades.</h4>
         </div>
       </div>
     </div>
-    <div class="parallax" style="opacity: 0.6"><img src="<?php echo base_url('assets/images/verde.jpg') ; ?>" alt="Unsplashed background img 3" id="logoudc"></div>
+    <div class="parallax" ><img src="<?php echo base_url('assets/images/verde.jpg') ; ?>" alt="Unsplashed background img 3" id="logoudc"></div>
   </div>
 
   <footer class="page-footer blue lighten-1">
@@ -208,7 +208,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Maginetworks Inc.</a>
+      Made by <a class="black-text" href="http://materializecss.com">Maginetworks Inc.</a>
       </div>
     </div>
   </footer>

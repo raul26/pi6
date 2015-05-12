@@ -1,12 +1,25 @@
 .pos_fixed_div2 {
-     
+
     position:absolute;
  top:0;
  right:0;
 }
+.estilo{
+  background-color: rgba(45, 42, 44, 0.75);
+  background: rgba(45, 42, 44, 0.75);
+  color: rgba(45, 42, 44, 0.75);
+  filter: blur(6px);
+  text-color: white;
+  border-radius: 100px;
+}
+.cent{
+  margin-top:180px;
+}
 
-
-
+img.tamano{
+  width: 50%;
+  height: 50%;
+}
 .footeer_nav{
 
 right:100px;
