@@ -55,7 +55,7 @@ function mostrar () {
 function grafica_full (woy, mayor, menor, avg) {
   $('#Temperatura-Semana2').highcharts({
     title: {
-      text: 'Temperatura por dias de la Semana '+woy,
+      text: 'Temperatura por d\u00edas de la Semana '+woy,
       x: -20 //center
     },
     subtitle: {

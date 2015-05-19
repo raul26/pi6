@@ -9,7 +9,7 @@
           <span class="white-text flow-text">
             Temperatura<p id= 'temperatura'>35</p>
           </span>
-          <a href='<?php echo base_url('index.php/datos/temperatura'); ?>'class='white-text'>Ver mas</a>
+          <a href='<?php echo base_url('index.php/datos/temperatura'); ?>'class='white-text'>Ver m&aacutes</a>
           </a>
         </div>
       </div>
@@ -20,7 +20,7 @@
           <span class="white-text flow-text">
             Humedad<p id= 'humedad'>90</p>
           </span>
-          <a  href='<?php echo base_url('index.php/datos/humedad'); ?>'class='white-text'>Ver mas</a>
+          <a  href='<?php echo base_url('index.php/datos/humedad'); ?>'class='white-text'>Ver m&aacutes</a>
         </a>
         </div>
       </div>
@@ -32,7 +32,7 @@
           <span class="white-text flow-text">
             Luminosidad<p id= 'luminosidad'>10</p>
           </span>
-          <a href='<?php echo base_url('index.php/datos/luminosidad'); ?>'class='white-text'>Ver mas</a>
+          <a href='<?php echo base_url('index.php/datos/luminosidad'); ?>'class='white-text'>Ver m&aacutes</a>
         </div>
         </a>
       </div>

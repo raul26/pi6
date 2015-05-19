@@ -140,7 +140,7 @@
             <h5 class="center">Vista de gráficas de laboratorios</h5>
 
             <p class="light center">
-              Los usuarios pueden apreciar los valores medidos por medio de graficas para una evaluación por día,
+              Los usuarios pueden apreciar los valores medidos por medio de gr&aacuteficas para una evaluación por día,
               semana o mes</p>
           </div>
         </div>
@@ -150,7 +150,7 @@
             <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
             <h5 class="center">Consultar Reportes</h5>
             <p class="light center">
-              Los reportes áyudan a conocer la informacion relacionada con la variación de alguna de las variables físicas existentes que se está mnitoreando en tiempo real
+              Los reportes ayudan a conocer la informaci&oacuten relacionada con la variación de alguna de las variables físicas existentes que se están monitoreando en tiempo real
             </p>
           </div>
         </div>
@@ -164,7 +164,7 @@
     <div class="section cent">
       <div class="container">
         <div class="row center estilo">
-          <h4 class="header bold col s12 white-text text-lighten-2">Una moderna solución a problemas de automatizacion y monitoreo.</h4>
+          <h4 class="header bold col s12 white-text text-lighten-2">Una moderna solución a problemas de automatizaci&oacuten y monitoreo.</h4>
         </div>
       </div>
     </div>
@@ -177,8 +177,8 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contactanos</h4>
-          <p class="left-align light">Magintworks es una empresa comprometida con las soluciones de ultima generacion aplicando la mas alta tecnologia y usando hardware de calidad, comprometida con nuestros clientes. </p>
+          <h4>Cont&aacutectanos</h4>
+          <p class="left-align light">Maginetworks es una empresa comprometida con las soluciones de &uacuteltima generaci&oacuten aplicando la m&aacutes alta tecnolog&iacutea y usando hardware de calidad, comprometida con nuestros clientes. </p>
         </div>
       </div>
 
@@ -190,7 +190,7 @@
     <div class="section ">
       <div class="container">
         <div class="row center estilo cent">
-          <h4 class="header col s12 white-text text-lighten-2">Desarrollo agil y adecuado a sus necesidades.</h4>
+          <h4 class="header col s12 white-text text-lighten-2">Desarrollo &aacutegil y adecuado a sus necesidades.</h4>
         </div>
       </div>
     </div>
@@ -202,12 +202,12 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Maginetworks</h5>
-          <p class="grey-text text-lighten-4">Magintworks es una empresa comprometida con las soluciones de ultima generacion aplicando la mas alta tecnologia y usando hardware de calidad, comprometida con nuestros clientes.</p>
+          <p class="grey-text text-lighten-4">Maginetworks es una empresa comprometida con las soluciones de &uacuteltima generaci&oacuten aplicando la m&aacutes alta tecnolog&iacutea y usando hardware de calidad, comprometida con nuestros clientes.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text"><a class="white-text" href="http://facebook.com/">Siguenos</a></h5>
+          <h5 class="white-text"><a class="white-text" href="http://facebook.com/">S&iacuteguenos</a></h5>
           <a href="https://www.facebook.com/Maginetworks?fref=ts" target="_blank"><img src="https://sites.google.com/site/2ndfunniestthing/facebook.png" alt="Seguir a MagiNetworks  en Twitter"/></a>
            <a href="https://twitter.com/2ndfunniest" target="_blank"><img src="https://sites.google.com/site/2ndfunniestthing/twitter.png" alt="Seguir a 2nd a MagiNetworks en Twitter"/></a>
 
