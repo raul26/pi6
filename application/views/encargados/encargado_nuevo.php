@@ -18,7 +18,7 @@
     <div class='row'>
       <div class="input-field col s4">
         <input id="last_name" type="password" class="validate"name='password'>
-        <label for="last_name">Password</label>
+        <label for="last_name">Contraseña</label>
       </div>
     </div>
     <div class="row">
@@ -29,7 +29,7 @@
     </div>
      <div class="input-field col s5">
         <input id="icon_telephone" type="tel" class="validate"name='telefono'>
-        <label>Telefóno</label>
+        <label>Teléfono</label>
       </div>
      <div class="row">
       <div class="input-field col s5">

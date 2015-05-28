@@ -55,15 +55,15 @@ function mostrar () {
 function grafica_full (woy, mayor, menor, avg) {
   $('#Temperatura-Semana2').highcharts({
     title: {
-      text: 'Temperatura por d\u00edas de la Semana '+woy,
+      text: 'Temperatura por días de la Semana '+woy,
       x: -20 //center
     },
     subtitle: {
-      text: 'Lectura menor, mayor y promedio por dia',
+      text: 'Lectura menor, mayor y promedio por día',
       x: -20
     },
     xAxis: {
-      categories: ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado',
+      categories: ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado',
         'Domingo']
     },
     yAxis: {
@@ -100,15 +100,15 @@ function grafica_full (woy, mayor, menor, avg) {
 function grafica (valores) {
   $('#Temperatura-Semana').highcharts({
     title: {
-      text: 'Temperatura por dias de la Semana '+$('#woy').html(),
+      text: 'Temperatura por días de la Semana '+$('#woy').html(),
       x: -20 //center
     },
     subtitle: {
-      text: 'Lecturas mas recientes.',
+      text: 'Lecturas más recientes.',
       x: -20
     },
     xAxis: {
-      categories: ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado',
+      categories: ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado',
         'Domingo']
     },
     yAxis: {

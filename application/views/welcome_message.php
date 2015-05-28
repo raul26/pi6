@@ -34,7 +34,7 @@
                       <i class="large mdi-social-person"></i>
                     </a>
                   </li>
-                  <li><a title="Graficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i></a></a></li>
+                  <li><a title="Gráficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i></a></a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                   <!--<li><a href="sass.html"><i class="large mdi-social-person"></i></a></li>-->
@@ -43,7 +43,7 @@
                       <i class="large mdi-social-person"></i> Iniciar sesion
                     </a>
                   </li>
-                  <li><a title="Graficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i> Graficas</a></a></li>
+                  <li><a title="Gráficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i> Graficas</a></a></li>
                 </ul>
           </div>
         </nav>
@@ -81,7 +81,7 @@
               <div class="input-field  col s12">
                 <i class="mdi-editor-mode-edit prefix"></i>
                 <input type="password" id="passwordinput" name="password" value="" class="validate">
-                <label for="passwordinput" class="">Password</label>
+                <label for="passwordinput" class="">Contraseña</label>
               </div>
             </div>
 

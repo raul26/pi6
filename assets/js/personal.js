@@ -25,7 +25,7 @@ $(document).ready(function(){
   });
 });
 function sure (el) {
-  var r = confirm("Esta seguro de cerrar sesion?");
+  var r = confirm("Está seguro de cerrar sesión?");
   if (r) {
     el.preventDefault();
     window.location.href = 'http://localhost/pi6/index.php/login/destroy';
@@ -34,7 +34,7 @@ function sure (el) {
   }
 }
 function borrar (el) {
-  var r = confirm('Esta seguro de eliminar el resitro?');
+  var r = confirm('Está seguro de eliminar el registro?');
   if (r) {
     el.preventDefault();
     var id = $(this).parents('tr').data('id');
@@ -45,7 +45,7 @@ function borrar (el) {
   }
 }
 function modificar (el) {
-  var r = confirm('Esta seguro de marcar como reuslto el reporte?');
+  var r = confirm('Está seguro de marcar como resuelto el reporte?');
   if (r) {
     el.preventDefault();
     var id = $(this).parents('tr').data('id');

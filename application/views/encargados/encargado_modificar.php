@@ -10,7 +10,7 @@
     <div class="row">
       <div class="input-field col s6">
         <input id="icon_prefix" type="text" class="validate" name='password' value='<?php echo $info[0]['nombre']; ?>'>
-        <label>Password</label>
+        <label>Contraseña</label>
       </div>
     </div>
     <div class="row">
@@ -28,7 +28,7 @@
     </div>
      <div class="input-field col s5">
         <input type="tel" class="validate"name='telefono'value='<?php echo $info[0]['telefono']; ?>'>
-        <label >Telefóno</label>
+        <label >Teléfono</label>
       </div>
      <div class="row">
       <div class="input-field col s5">

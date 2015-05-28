@@ -11,8 +11,8 @@ $(document).ready(function(){
     for(var x in val){
       valores.push(parseFloat(val[x]));
     }
-    $('#temperatura').html(valores[0]);
-    $('#humedad').html(valores[1]);
-    $('#luminosidad').html(valores[2]);
+    $('#temperatura').html(valores[0]+' °C');
+    $('#humedad').html(valores[1]+' %HR');
+    $('#luminosidad').html(valores[2]+' %');
   });
 });

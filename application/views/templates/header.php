@@ -29,15 +29,15 @@
         <li><a title="Inicio" href="<?php echo base_url('index.php/welcome/principal'); ?>"><i class="large mdi-action-home"></i></a></li>
         <li><a title="Encargados" class="dropdown-button" href="#!" data-activates="dropdown1"><i class="large mdi-action-assignment-ind"></i><i class="mdi-navigation-arrow-drop-down right"></i></a></li>
         <li><a title="Reportes" href="<?php echo base_url('index.php/reportes'); ?>"><i class="large mdi-action-subject"></i></a></a></li>
-        <li><a title="Graficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i></a></a></li>
+        <li><a title="Gráficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i></a></a></li>
         <li><a title="Laboratorio" href="<?php echo base_url('index.php/laboratorios/'); ?>"><i class="large mdi-editor-format-color-fill"></i></a></a></li>
-        <li id='close'><a title="Cerrar sesion" href=""><i class="large mdi-action-perm-identity"></i></a></a></li>
+        <li id='close'><a title="Cerrar sesión" href=""><i class="large mdi-action-perm-identity"></i></a></a></li>
 <?php
       }else{
 ?>
 
         <li><a title="Inicio" href="<?php echo base_url('/'); ?>"><i class="large mdi-action-home"></i></a></li>
-        <li><a title="Graficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i></a></a></li>
+        <li><a title="Gráficas" href="<?php echo base_url('index.php/datos'); ?>"><i class="large mdi-action-assessment"></i></a></a></li>
 <?php
       }
 ?>

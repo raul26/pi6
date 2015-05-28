@@ -53,15 +53,15 @@ function mostrar () {
 function grafica_full (woy, mayor, menor, avg) {
   $('#Humedad-Semana2').highcharts({
     title: {
-      text: 'Humedad por dias de la Semana '+woy,
+      text: 'Humedad por días de la Semana '+woy,
       x: -20 //center
     },
     subtitle: {
-      text: 'Lectura menor, mayor y promedio por dia',
+      text: 'Lectura menor, mayor y promedio por día',
       x: -20
     },
     xAxis: {
-      categories: ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado',
+      categories: ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado',
         'Domingo']
     },
     yAxis: {
@@ -98,15 +98,15 @@ function grafica_full (woy, mayor, menor, avg) {
 function grafica (valores) {
   $('#Humedad-Semana').highcharts({
     title: {
-      text: 'Humedad por dias de la Semana',
+      text: 'Humedad por días de la Semana',
       x: -20 //center
     },
     subtitle: {
-      text: 'Lecturas mas recientes.',
+      text: 'Lecturas más recientes.',
       x: -20
     },
     xAxis: {
-      categories: ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado',
+      categories: ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado',
         'Domingo']
     },
     yAxis: {

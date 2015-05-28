@@ -6,27 +6,27 @@
       <td> <?php echo ('<p>'.$all[0]['tipo_uso'].'</p>');  ?> </td>
     </tr>
     <tr>
-      <th><span class="mdi-image-wb-sunny"></span> Temperatura Minima</th>
+      <th><span class="mdi-image-wb-sunny"></span> Temperatura Mínima</th>
       <td><?php echo ('<p>'.$all[0]['temperatura_minima'].'</p>');  ?></td>
     </tr>
     <tr>
-      <th> <span class="mdi-image-wb-sunny"></span> Temperatura Maxima</th>
+      <th> <span class="mdi-image-wb-sunny"></span> Temperatura Máxima</th>
       <td><?php echo ('<p>'.$all[0]['temperatura_maxima'].'</p>');  ?></td>
     </tr>
     <tr>
-      <th><span class="mdi-maps-local-drink"></span>Humedad Minima</th>
+      <th><span class="mdi-maps-local-drink"></span>Humedad Mínima</th>
       <td><?php echo ('<p>'.$all[0]['humedad_minima'].'</p>');  ?></td>
     </tr>
     <tr>
-      <th><span class="mdi-maps-local-drink"></span> Humedad Maxima</th>
+      <th><span class="mdi-maps-local-drink"></span> Humedad Máxima</th>
       <td><?php echo ('<p>'.$all[0]['humedad_maxima'].'</p>');  ?></td>
     </tr>
     <tr>
-      <th> <span class="mdi-device-brightness-low"></span> Luminosidad Minima</th>
+      <th> <span class="mdi-device-brightness-low"></span> Luminosidad Mínima</th>
       <td><?php echo ('<p>'.$all[0]['luminosidad_minima'].'</p>');  ?></td>
     </tr>
     <tr>
-      <th> <span class="mdi-device-brightness-high"></span> Luminosidad Maxima</th>
+      <th> <span class="mdi-device-brightness-high"></span> Luminosidad Máxima</th>
       <td><?php echo ('<p>'.$all[0]['luminosidad_maxima'].'</p>');  ?></td>
     </tr>
   </table>
